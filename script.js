@@ -4,7 +4,6 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
-<<<<<<< HEAD
 
 // Modo Escuro / Claro
 
@@ -52,5 +51,3 @@ function setLightMode() {
     icon.src = icon.getAttribute("src-light");
   });
 }
-=======
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5

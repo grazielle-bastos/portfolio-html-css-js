@@ -2,7 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 
-<<<<<<< HEAD
 /* Modo Claro Padrão */
 :root {
   --primary-color: white;
@@ -33,14 +32,11 @@
   --container-border: rgb(92, 92, 92);
 }
 
-=======
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 * {
   margin: 0;
   padding: 0;
 }
 
-<<<<<<< HEAD
 h3 {
   color: var(--secondary-color);
 }
@@ -48,10 +44,6 @@ h3 {
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--background-color);
-=======
-body {
-  font-family: "Poppins", "sans-serif";
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 html {
@@ -59,11 +51,7 @@ html {
 }
 
 p {
-<<<<<<< HEAD
   color: var(--secondary-color-2);
-=======
-  color: rgb(85, 85, 85);
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 /* TRANSIÇÃO */
@@ -78,18 +66,11 @@ a,
 nav,
 .nav-links {
   display: flex;
-<<<<<<< HEAD
   align-items: center;
-=======
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 nav {
   justify-content: space-around;
-<<<<<<< HEAD
-=======
-  align-items: center;
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
   height: 17vh;
 }
 
@@ -99,7 +80,6 @@ nav {
   font-size: 1.5rem;
 }
 
-<<<<<<< HEAD
 nav li:last-child {
   width: max-content;
   display: flex;
@@ -123,27 +103,11 @@ a:hover {
 nav a:hover {
   color: var(--secondary-color);
   text-decoration-color: var(--secondary-color);
-=======
-a {
-  color: black;
-  text-decoration: none;
-  text-decoration-color: white;
-}
-
-a:hover {
-  color: grey;
-  text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 .logo {
   font-size: 2rem;
-<<<<<<< HEAD
   color: var(--secondary-color);
-=======
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 .logo:hover {
@@ -173,11 +137,7 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-<<<<<<< HEAD
   background-color: var(--secondary-color);
-=======
-  background-color: black;
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
   transition: all 0.3 ease-in-out;
 }
 
@@ -185,11 +145,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-<<<<<<< HEAD
   background-color: var(--primary-color);
-=======
-  background-color: white;
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -201,11 +157,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-<<<<<<< HEAD
   color: var(--secondary-color);
-=======
-  color: black;
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -290,13 +242,8 @@ section {
   margin-bottom: 1rem;
 }
 
-<<<<<<< HEAD
 .title {
   color: var(--secondary-color);
-=======
-.title,
-h1 {
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
   font-size: 3rem;
   text-align: center;
 }
@@ -333,12 +280,8 @@ h1 {
 
 .btn-color-1,
 btn-color-2 {
-<<<<<<< HEAD
   border: var(--button-border);
   color: var(--secondary-color-2);
-=======
-  border: rgb(53, 53, 53) 0.1rem solid;
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 .btn-color-1:hover,
@@ -348,21 +291,12 @@ btn-color-2 {
 
 .btn-color-1,
 .btn-color-2:hover {
-<<<<<<< HEAD
   background: var(--button-background);
   color: var(--primary-color);
 }
 
 .btn-color-1:hover {
   background: var(--secondary-color);
-=======
-  background: rgb(53, 53, 53);
-  color: white;
-}
-
-.btn-color-1:hover {
-  background: rgb(0, 0, 0);
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 .btn-color-2 {
@@ -370,12 +304,8 @@ btn-color-2 {
 }
 
 .btn-color-2:hover {
-<<<<<<< HEAD
   border: var(--button-border);
   background: var(--secondary-color);
-=======
-  border: rgb(255, 255, 255) 0.1rem solid;
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 .btn-container {
@@ -417,17 +347,10 @@ btn-color-2 {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-<<<<<<< HEAD
   background: var(--primary-color-2);
   border-radius: 2rem;
   border: var(--button-border);
   border-color: var(--container-border);
-=======
-  background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
   text-align: center;
 }
 
@@ -449,11 +372,7 @@ btn-color-2 {
 }
 
 .experience-sub-title {
-<<<<<<< HEAD
   color: var(--secondary-color);
-=======
-  color: rgb(85, 85, 85);
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -492,13 +411,8 @@ article .icon {
 }
 
 .color-container {
-<<<<<<< HEAD
   border-color: var(--container-border);
   background: var(--primary-color-2);
-=======
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 .project-img {
@@ -509,21 +423,12 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-<<<<<<< HEAD
   color: var(--secondary-color);
 }
 
 .project-btn {
   color: var(--secondary-color);
   border-color: var(--container-border);
-=======
-  color: black;
-}
-
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 /* CONTATO */
@@ -539,15 +444,9 @@ article .icon {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-<<<<<<< HEAD
   border: var(--button-border);
   border-color: var(--container-border);
   background: (--background-color);
-=======
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  background: (50, 50, 50);
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -569,11 +468,7 @@ article .icon {
 }
 
 .email-icon {
-<<<<<<< HEAD
   height: 2.5rem;
-=======
-  height: 2.4rem;
->>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 /* RODAPÉ */
