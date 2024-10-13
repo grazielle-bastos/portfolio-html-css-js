@@ -6,10 +6,13 @@
   .about-containers {
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
   #contact,
   #projects {
     height: fit-content;
   }
+=======
+>>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
 }
 
 @media screen and (max-width: 1200px) {
@@ -20,7 +23,11 @@
     display: flex;
   }
   #experience,
+<<<<<<< HEAD
   .experience-details-container {
+=======
+  experience-details-container {
+>>>>>>> aedc61f9bdb8813bd74741d04b54c224db99b1f5
     margin-top: 2rem;
   }
   #profile,
